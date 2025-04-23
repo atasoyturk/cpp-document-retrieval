@@ -32,7 +32,7 @@ git clone https://github.com/atasoyturk/cpp-document-retrieval.git
 cd cpp-document-retrieval/src
 g++ -std=c++17 -o retriever main.cpp indexer.cpp search.cpp
 ```
-####▶️ Usage
+#### ▶️ Usage
 
 -Place your .txt files inside the data/ folder.
 -Run the compiled executable:
@@ -40,7 +40,7 @@ g++ -std=c++17 -o retriever main.cpp indexer.cpp search.cpp
 ```bash
 ./retriever
 ```
-#####🚧 Future Improvements
+##### 🚧 Future Improvements
 - Implement TF-IDF scoring
 - Add stopword filtering
 - Support JSON or CSV export
