@@ -162,7 +162,7 @@ void showLoadingMessage() {
 }
 
 void processFiles(WordList& list) {
-	const string path = "C:/Users/User/Desktop/ders/ceng/ceng218/AllDocs/AllDocs/";
+	const string path = "data/sample_docs";
 	int opened_files = 0;
 
 	for (int i = 1; i <= 100; ++i) {
